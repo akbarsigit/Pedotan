@@ -24,7 +24,7 @@ PEDOTAN is a breakthrough platform that empowers farmers with cutting-edge plant
 
 ## Learning Path Repository 📚
 - [Mobile Development](https://github.com/wiweka24/Pedotan-MD)
-- [Cloud Computing](https://github.com/)
+- [Cloud Computing](https://github.com/mukiwito/Pedotan-CC)
 - [Machine Learning](https://github.com/akbarsigit/Pedotan-MachineLearning)
 
 
