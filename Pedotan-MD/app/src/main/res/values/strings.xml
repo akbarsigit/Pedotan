@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Pedotan</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_history">History</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_scan">Scan</string>
+    <string name="change_theme">Dark Mode</string>
+    <string name="setting_ui">UI</string>
+    <string name="setting">Settings</string>
+    <string name="account">Account</string>
+    <string name="setting_account">Account</string>
+    <string name="logout">Logout</string>
+    <string name="theme_status">status</string>
+    <string name="theme_now">Theme</string>
+
+    <!--  Login & Register  -->
+    <string name="login">Login</string>
+    <string name="email">Username</string>
+    <string name="password">Password</string>
+    <string name="profile">Profile</string>
+    <string name="user_email">Email</string>
+    <string name="register">Register</string>
+    <string name="not_have_account">don\'t have an account?</string>
+    <string name="have_an_account">already have an account?</string>
+
+    <!--  Profile  -->
+    <string name="fullname">Fullname</string>
+    <string name="user_name">John Doe</string>
+
+    <!--  Camera  -->
+    <string name="camera">Take Picture</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Scan</string>
+
+    <!--  Live Camera  -->
+    <string name="capture_button_alt">Capture</string>
+    <string name="unknown">UNKNOWN</string>
+    <string name="live_camera">Live Camera</string>
+    <string name="dashboard">Hi, Someone</string>
+    <string name="scan">Quick Scan</string>
+    <string name="heal_your_crops">Heal your Crops</string>
+</resources>

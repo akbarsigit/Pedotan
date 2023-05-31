@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_rice_24dp"
+        android:title="@string/title_dashboard"/>
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/anim_account"
+        android:title="@string/title_profile"/>
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/anim_history"
+        android:title="@string/title_history"/>
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/anim_settings"
+        android:title="@string/title_setting"/>
+</menu>
