@@ -10,14 +10,14 @@ PEDOTAN is a breakthrough platform that empowers farmers with cutting-edge plant
 | :-------------------------: | :--------: | :----------------: | :----------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
 | Akbar Sigit Putra  | M169DSX0378 |  Machine Learning  |Machine Learning Engineer |[akbarsigit](https://github.com/akbarsigit)|
 | Muhammad Rifat Bagas Adikusuma | M169DSX0536  |  Machine Learning  | Machine Learning Engineer |   -  |
-| Wiweka Yoga Sadewa| A169DSX1204  | Mobile Development |          Android Mobile Developer          |             - |
+| Wiweka Yoga Sadewa| A169DSX1204 | Mobile Development | Android Mobile Developer | [wiweka24](https://github.com/wiweka24) |
 |  Ammar Raihan | A017DSX1052  | Mobile Development |          Android Mobile Developer          |    -   |
 |     Muhammad Dzaki Dwi Putranto     | C017DSX0699  |   Cloud Engineer  |               Cloud Engineer              |  -         |
 | Akmal Jauhar Sidqi | C017DSX0718  |   Cloud Computing  |          Cloud Engineer        | - |
 
 
 ## Learning Path Repository 📚
-- [Mobile Development](https://github.com/)
+- [Mobile Development](https://github.com/wiweka24/Pedotan-MD)
 - [Cloud Computing](https://github.com/)
 - [Machine Learning](https://github.com/akbarsigit/Pedotan-MachineLearning)
 
