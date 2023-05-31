@@ -39,7 +39,7 @@ PEDOTAN is a breakthrough platform that empowers farmers with cutting-edge plant
 1. **Real-time Plant Disease Detection 📸**: Capture a photo of the plant and receive the disease diagnosis in an instant. Our machine learning models are trained on thousands of images ensuring high accuracy.
 2. **Appropriate Medicine Suggestions 📚**: Tailored suggestions of the best control measures to help farmers save their crops based on the detected disease.
 3. **Community Forum 🌐**: A hub for farmers worldwide. Exchange experiences, ask for advice, or engage in conversation.
-4. **Market Place 🛒🌧️**: Get localized weather updates to help farmers make informed decisions about their farming practices.
+4. **Market Place 🛒🌧️**: Combine multiple source of market plate and build centralized market place environment
 5. **Cloud Sync ☁️**: Access your data anytime, anywhere thanks to our cloud syncing capabilities.
 
 
