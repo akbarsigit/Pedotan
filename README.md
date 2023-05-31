@@ -4,6 +4,12 @@
 ## 🎯 About 
 PEDOTAN is a breakthrough platform that empowers farmers with cutting-edge plant disease detection technology 🧪🔬. Our mission is to mitigate crop losses by image recognition and accurate disease diagnosis through our mobile application. Leveraging machine learning models and cloud computing, PEDOTAN swiftly identifies and suggests appropriate medicine for a multitude of plant diseases, propelling sustainable farming practices to the global stage.
 
+![Tensorflow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
 
 ## 👥 Our Guardians
 |            Member           | Student ID |        Path        |                    Role                    |                                                       Contacts                                                      |
