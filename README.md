@@ -2,7 +2,8 @@
 :earth_asia: Welcome to the Bangkit capstone project of Team C23-PS379, a game-changer designed to revolutionize the farming community and plant disease detection.
 
 ## 🎯 About 
-PEDOTAN is a breakthrough platform that empowers farmers with cutting-edge plant disease detection technology 🧪🔬. Our mission is to mitigate crop losses by image recognition and accurate disease diagnosis through our mobile application. Leveraging machine learning models and cloud computing, PEDOTAN swiftly identifies and suggests appropriate medicine for a multitude of plant diseases, propelling sustainable farming practices to the global stage.
+Pedotan is a mobile application that aims to support farmers by providing them with financial aid, offers a guidance system to enhance field productivity, and serves as a platform to sell their crops to improve the well-being of farmers. Our mission is to help farmers get a better understanding of what happened to their crops and monitor the fields, enhancing market opportunities and farmers' economic levels. Pedotan can give monitoring and guidance through AI technology to help identify and address plant issues to  promote the adoption of sustainable and efficient farming practices 🧪🔬.
+
 
 ![Tensorflow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white)
@@ -32,22 +33,53 @@ PEDOTAN is a breakthrough platform that empowers farmers with cutting-edge plant
 1. **Machine Learning 🧠**: TensorFlow and Keras
 2. **Mobile Development 📱**: Android (Java and Kotlin)
 3. **Cloud Computing ☁️**: Google Cloud Platform (GCP)
-4. **Data Management 💽**: 
+4. **Data Management 💽**: Firebase Realtime Database 
 
 
 ## 🌟 Features
-1. **Real-time Plant Disease Detection 📸**: Capture a photo of the plant and receive the disease diagnosis in an instant. Our machine learning models are trained on thousands of images ensuring high accuracy.
-2. **Appropriate Medicine Suggestions 📚**: Tailored suggestions of the best control measures to help farmers save their crops based on the detected disease.
-3. **Community Forum 🌐**: A hub for farmers worldwide. Exchange experiences, ask for advice, or engage in conversation.
-4. **Market Place 🛒🌧️**: Combine multiple source of market plate and build centralized market place environment
+1. **Real-time Plant Disease Detection 📸**: Capture a photo of the plant and receive the disease diagnosis, nutrient deficiency, and ideal farm condition in an instant.
+2. **Market Place 🛒🌧️**: Provide a platform for the farmer to sell their crops under “koperasi tani” management.
+3. **Farm Monitoring 🌾**: Help farmers monitor growth with the help of AI technology to increase field productivity.
+4. **Financial Support 💸**: Support farmers in acquiring financial aid to initiate agricultural land cultivation.
 5. **Cloud Sync ☁️**: Access your data anytime, anywhere thanks to our cloud syncing capabilities.
 
+### Endpoints
+Here are the endpoints used by PEDOTAN-APP
+ - **'/auth/register'**
+	User registration using email/password method (saving user data in Firestore)
+- **'/auth/google'**
+	User registration using Google provider (saving user data in Firestore)
+- **'/auth/login'**
+	Creating a unique session token for the user
+- **'/auth/datauser'**
+	- POST
+		Sending detailed user data on to Firestore database
+	- GET
+		Retrieving user data from the Firestore database
+- **'/auth/farmdata'**
+	- POST
+		Sending a user's farm data on to Firestore database
+	- GET
+		Retrieving all of the user's farm data from the Firestore database
+	- PATCH
+		Update the user's farm data on the Firestore database
+	- DELETE
+   		Delete the user's farm data from the Firestore database
+- **'/auth/logout'**
+	Deleting the user's session token
+- **'/ai/predictdisease'**
+	Sending plant disease photos for AI prediction
+- **'/ai/predictcrop'**
+	Sending crop data for AI prediction
+- **'/ai/predictnpk'**
+	Sending image for NPK value AI prediction
 
 ## 🚀 Our Model Performance 
 
-Our machine learning model has been rigorously tested and trained on a dataset comprising thousands of images to ensure a high level of accuracy. Here are some key performance metrics that we've achieved:
+Our machine-learning model has been rigorously tested and trained on a dataset comprising thousands of images to ensure a high level of accuracy. Here are some key performance metrics that we've achieved:
 
 ### Classification Report
 ----
+
 
 
