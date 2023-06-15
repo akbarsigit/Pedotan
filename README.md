@@ -1,7 +1,9 @@
 # 🌱 PEDOTAN (Pengendalian Optimal Tanaman) 🌿 - Guardians of the Green (Team C23-PS379)
 :earth_asia: Welcome to the Bangkit capstone project of Team C23-PS379, a game-changer designed to revolutionize the farming community and plant disease detection.
 
-![Group 3](https://github.com/akbarsigit/Pedotan/assets/69757628/34a01426-9dd1-4b3f-8df0-69d64ba56388)
+<p align="center">
+  <img src="https://github.com/akbarsigit/Pedotan/assets/69757628/34a01426-9dd1-4b3f-8df0-69d64ba56388" alt="Group 3" width="400" height="300">
+</p>
 
 ## 🎯 About 
 Pedotan is a mobile application that aims to support farmers by providing them with financial aid, offers a guidance system to enhance field productivity, and serves as a platform to sell their crops to improve the well-being of farmers. Our mission is to help farmers get a better understanding of what happened to their crops and monitor the fields, enhancing market opportunities and farmers' economic levels. Pedotan can give monitoring and guidance through AI technology to help identify and address plant issues to  promote the adoption of sustainable and efficient farming practices 🧪🔬.
