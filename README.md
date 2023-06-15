@@ -24,6 +24,7 @@ Pedotan is a mobile application that aims to support farmers by providing them w
 
 
 ## Learning Path Repository 📚
+For more information, check out each learning path to see the individual documentation:
 - [Mobile Development](https://github.com/wiweka24/Pedotan-MD)
 - [Cloud Computing](https://github.com/mukiwito/Pedotan-CC)
 - [Machine Learning](https://github.com/akbarsigit/Pedotan-MachineLearning)
