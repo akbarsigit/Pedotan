@@ -1,0 +1,11 @@
+flask
+flask-restful
+firebase-admin
+google-cloud-storage
+PyJWT
+
+Pillow==8.2.0
+Keras==2.6.0
+requests==2.26.0
+tensorflow
+numpy

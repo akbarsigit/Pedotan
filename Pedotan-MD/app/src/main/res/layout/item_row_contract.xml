@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="PROFILE"
+            card_view:layout_constraintBottom_toBottomOf="@+id/tv_loan"
+            card_view:layout_constraintEnd_toStartOf="@+id/tv_company"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="@+id/tv_investor_name"
+            card_view:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_investor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:padding="8dp"
+            android:text="@string/placeholder_name"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/tv_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:padding="8dp"
+            android:text="@string/placeholder_company"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_investor_name"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/tv_title_loan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:text="@string/placeholder_loan"
+            android:textColor="?attr/colorPrimaryVariant"
+            android:paddingTop="8dp"
+            android:paddingHorizontal="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_company"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/tv_loan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:text="@string/placeholder_range_loan"
+            android:textColor="?attr/colorPrimaryVariant"
+            android:paddingHorizontal="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            card_view:layout_constraintTop_toBottomOf="@+id/tv_title_loan"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <ImageView
+            android:id="@+id/rightArrow"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_whatsapp_logo_24"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintTop_toTopOf="@+id/tv_investor_name" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

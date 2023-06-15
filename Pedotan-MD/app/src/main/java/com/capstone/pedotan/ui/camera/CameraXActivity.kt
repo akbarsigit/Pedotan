@@ -5,7 +5,6 @@ import android.net.Uri
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.WindowInsets
 import android.view.WindowManager
 import android.widget.Toast
@@ -17,6 +16,8 @@ import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
 import com.capstone.pedotan.databinding.ActivityCameraXBinding
+import com.capstone.pedotan.ui.createFile
+import com.capstone.pedotan.ui.uriToFile
 
 class CameraXActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCameraXBinding

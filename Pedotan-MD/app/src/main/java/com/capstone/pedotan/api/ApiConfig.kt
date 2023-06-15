@@ -14,7 +14,7 @@ class ApiConfig {
             .build()
         val retrofit = Retrofit.Builder()
             // need something
-            .baseUrl("https://6476dcf09233e82dd53a6bdb.mockapi.io/api/v1/")
+            .baseUrl("http://34.128.89.205:5000")
             .addConverterFactory(GsonConverterFactory.create())
             .client(client)
             .build()

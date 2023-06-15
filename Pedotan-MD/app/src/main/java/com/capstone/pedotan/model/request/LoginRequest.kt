@@ -6,8 +6,8 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class LoginRequest(
-    @field:SerializedName("username")
-    val username: String,
+    @field:SerializedName("email")
+    val email: String,
 
     @field:SerializedName("password")
     val password: String

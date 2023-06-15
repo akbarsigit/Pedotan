@@ -1,45 +1,122 @@
 <resources>
     <string name="app_name">Pedotan</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_profile">Profile</string>
-    <string name="title_history">History</string>
+    <string name="title_dashboard">Beranda</string>
+    <string name="title_market">Pasar</string>
     <string name="title_setting">Setting</string>
-    <string name="title_scan">Scan</string>
     <string name="change_theme">Dark Mode</string>
     <string name="setting_ui">UI</string>
     <string name="setting">Settings</string>
     <string name="account">Account</string>
     <string name="setting_account">Account</string>
     <string name="logout">Logout</string>
-    <string name="theme_status">status</string>
     <string name="theme_now">Theme</string>
 
     <!--  Login & Register  -->
     <string name="login">Login</string>
-    <string name="email">Username</string>
+    <string name="email">Email</string>
     <string name="password">Password</string>
-    <string name="profile">Profile</string>
+    <string name="profile">Data Diri</string>
     <string name="user_email">Email</string>
     <string name="register">Register</string>
     <string name="not_have_account">don\'t have an account?</string>
     <string name="have_an_account">already have an account?</string>
 
     <!--  Profile  -->
-    <string name="fullname">Fullname</string>
+    <string name="fullname">Nama Lengkap</string>
     <string name="user_name">John Doe</string>
 
     <!--  Camera  -->
-    <string name="camera">Take Picture</string>
-    <string name="gallery">Galeri</string>
-    <string name="upload">Scan</string>
+    <string name="camera">Ambil Gambar</string>
+    <string name="upload">Scan Penyakit</string>
 
-    <!--  Live Camera  -->
-    <string name="capture_button_alt">Capture</string>
-    <string name="unknown">UNKNOWN</string>
-    <string name="live_camera">Live Camera</string>
+    <!--  Dashboard -->
     <string name="dashboard">Hi, Someone</string>
-    <string name="scan">Quick Scan</string>
-    <string name="heal_your_crops">Heal your Crops</string>
+
+    <string name="title_loan">Pinjaman</string>
+    <string name="title_contract">Kontrak</string>
+    <string name="my_field">Kebunku</string>
+    <string name="cek_field">Riwayat Kebun</string>
+    <string name="condition">Status Kondisi :</string>
+    <string name="field_condition">Status</string>
+    <string name="cek_penyakit">Cek Penyakit</string>
+    <string name="field_name">Komoditas |</string>
+    <string name="field_luas">Luas</string>
+    <string name="field_location">lokasi</string>
+    <string name="add_field">Tambah Kebun</string>
+    <string name="or">-- atau --</string>
+    <string name="title_add_field">Tambah Kebun</string>
+
+    <!--  Item Row Kebun  -->
+    <string name="comodity">Komoditas</string>
+    <string name="location">Lokasi</string>
+    <string name="siza">Luas Kebun (ha)</string>
+    <string name="btn_add_field">Tambah Kebun</string>
+    <string name="cek_field_condition">Cek Kondisi Kebun</string>
+    <string name="title_check_field">Cek Kondisi Kebun</string>
+
+    <!--  Check Field  -->
+    <string name="nitrogen">Nitrogen (N)</string>
+    <string name="potasium">Phosphat (P)</string>
+    <string name="kalium">Kalium (K)</string>
+    <string name="rain_falls">Curah Hujan</string>
+    <string name="ph">pH</string>
+    <string name="humidity">Kelembapan (%)</string>
+    <string name="temperature">Suhu (°C)</string>
+    <string name="btn_check_npk">Cek N,P,K Otomatis</string>
+    <string name="btn_send">Kirim</string>
+
+    <string name="unit">Rp/kg</string>
+    <string name="placeholder_price">9000</string>
+    <string name="placeholder_name">Petani Tajir</string>
+    <string name="placeholder_place">Bandung</string>
+    <string name="placeholder_commodity">Beras</string>
+    <string name="placeholder_loan_amount">Rp50.000.000</string>
+    <string name="placeholder_company">PT. Sumber Agung Kencono</string>
+    <string name="title_active_loan">Pinjaman Aktif</string>
+    <string name="placeholder_range_loan">Rp50.0000.0000</string>
+    <string name="title_find_investor">Temukan Investor!</string>
+    <string name="title_find_best_price">Temukan Harga Terbaik!</string>
+    <string name="title_detail_loan">Rincian Pinjaman</string>
+    <string name="title_loan_date">Tanggal Pinjaman</string>
+    <string name="placeholder_loan_date">1-JUL-2023</string>
+    <string name="title_loan_amount">Jumlah Pinjaman Awal</string>
+    <string name="title_due_date">Tanggal Jatuh Tempo</string>
+    <string name="placeholder_loan_due_date">31-DES-2023</string>
+    <string name="title_detail_contract">Rincian Kontrak</string>
+    <string name="title_loan_duration">Durasi Jatuh Tempo</string>
+    <string name="title_range_loan">Jangkauan Pinjaman</string>
+    <string name="placeholder_loan_duration">6 Bulan</string>
+    <string name="title_timestamp">Waktu Pengecekan : </string>
+    <string name="placeholder_timestamp">2023–06–20 09:34</string>
+    <string name="title_nitrogen">Nitrogen(N) : </string>
+    <string name="placeholder_status">Cukup</string>
+    <string name="title_potassium">Potassium(K) : </string>
+    <string name="title_curah_hujan">Curah Hujan(mm) :</string>
+    <string name="placeholder_curah_hujan">202</string>
+    <string name="title_ph">pH :</string>
+    <string name="placeholder_ph">6</string>
+    <string name="title_kelembaban">Kelembaban(%) :</string>
+    <string name="placeholder_kelembaban">82</string>
+    <string name="title_suhu">Suhu (°C) :</string>
+    <string name="placeholder_suhu">20</string>
+    <string name="title_penyakit">Penyakit :</string>
+    <string name="placeholder_status_penyakit">Sehat</string>
+    <string name="title_phosphorous">Phosphorous(P) :</string>
+    <string name="title_history">Riwayat Kebun</string>
+    <string name="placeholder_loan">Jangkauan Pinjaman :</string>
+    <string name="placeholder_stock">Stock : 100 kg</string>
+    <string name="placeholder_price_cart">Harga : Rp9.000/kg</string>
+    <string name="title_shop">Keranjang</string>
+    <string name="title_quantity">Jumlah Pesanan :</string>
+    <string name="placeholder_quantity">1</string>
+    <string name="title_total_price">TOTAL HARGA :</string>
+    <string name="placeholder_total_price">Rp9.000</string>
+    <string name="btn_add_to_cart">Beli</string>
+    <string name="btn_whatsapp">WhatsApp</string>
+    <string name="title_due_date_loan">Tanggal Terakhir Pelunasan :</string>
+    <string name="update_profile">Perbarui Profil</string>
+    <string name="phone_number">Nomor Telepon</string>
+    <string name="nik">NIK</string>
+    <string name="perbarui">Perbarui</string>
+
 </resources>

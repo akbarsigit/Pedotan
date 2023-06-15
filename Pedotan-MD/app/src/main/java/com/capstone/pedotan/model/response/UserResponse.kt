@@ -1,30 +1,27 @@
 package com.capstone.pedotan.model.response
 
+import kotlinx.parcelize.Parcelize
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 
+@Parcelize
 data class UserResponse(
 
-	@field:SerializedName("data")
-	val data: UserData,
+	@field:SerializedName("nik")
+	val nik: String,
 
-	@field:SerializedName("status")
-	val status: String
-)
+	@field:SerializedName("noHandphone")
+	val noHandphone: String,
 
-data class UserData(
+	@field:SerializedName("name")
+	val name: String,
 
-	@field:SerializedName("user")
-	val user: User
-)
+	@field:SerializedName("photo")
+	val photo: String,
 
-data class User(
+	@field:SerializedName("location")
+	val location: String,
 
-	@field:SerializedName("id")
-	val id: String,
-
-	@field:SerializedName("fullname")
-	val fullname: String,
-
-	@field:SerializedName("username")
-	val username: String
-)
+	@field:SerializedName("email")
+	val email: String
+) : Parcelable

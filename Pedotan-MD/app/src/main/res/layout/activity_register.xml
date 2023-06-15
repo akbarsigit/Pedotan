@@ -115,7 +115,7 @@
             tools:ignore="SpeakableTextPresentCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:background="@drawable/background_roundedcorner"
         android:id="@+id/registerButton"
         android:layout_width="0dp"

@@ -6,27 +6,27 @@
     app:startDestination="@+id/navigation_dashboard">
 
     <fragment
-        android:id="@+id/navigation_profile"
-        android:name="com.capstone.pedotan.ui.profile.ProfileFragment"
-        android:label="@string/title_profile"
-        tools:layout="@layout/fragment_profile" />
-
-    <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.capstone.pedotan.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_history"
-        android:name="com.capstone.pedotan.ui.history.HistoryFragment"
-        android:label="@string/title_history"
-        tools:layout="@layout/fragment_history" />
+        android:id="@+id/navigation_market"
+        android:name="com.capstone.pedotan.ui.market.MarketFragment"
+        android:label="@string/title_market"
+        tools:layout="@layout/fragment_market" />
 
     <fragment
-        android:id="@+id/navigation_setting"
-        android:name="com.capstone.pedotan.ui.setting.SettingFragment"
-        android:label="@string/title_setting"
-        tools:layout="@layout/fragment_setting" />
+        android:id="@+id/navigation_contract"
+        android:name="com.capstone.pedotan.ui.contract.ContractFragment"
+        android:label="@string/title_contract"
+        tools:layout="@layout/fragment_contract" />
+
+    <fragment
+        android:id="@+id/navigation_loan"
+        android:name="com.capstone.pedotan.ui.loan.LoanFragment"
+        android:label="@string/title_loan"
+        tools:layout="@layout/fragment_loan" />
 
 </navigation>

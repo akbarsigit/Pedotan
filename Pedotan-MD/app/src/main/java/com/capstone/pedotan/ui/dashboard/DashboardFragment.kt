@@ -1,23 +1,29 @@
 package com.capstone.pedotan.ui.dashboard
 
+import android.R
 import android.content.Intent
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.activity.OnBackPressedCallback
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.capstone.pedotan.databinding.FragmentDashboardBinding
 import com.capstone.pedotan.ui.ViewModelFactory
-import com.capstone.pedotan.ui.camera.CameraActivity
-import com.capstone.pedotan.ui.livecamera.LiveCameraActivity
+import com.capstone.pedotan.ui.addfield.AddFieldActivity
+
 
 class DashboardFragment : Fragment() {
 
     private lateinit var viewModel: DashboardViewModel
     private var _binding: FragmentDashboardBinding? = null
     private val binding get() = _binding!!
+    private val adapter: ListFieldAdapter by lazy { ListFieldAdapter(requireActivity()) }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -46,12 +52,31 @@ class DashboardFragment : Fragment() {
     }
 
     private fun setupAction() {
-        binding.btnQuickScan.setOnClickListener {
-            startActivity(Intent(requireActivity(), LiveCameraActivity::class.java))
+        binding.apply {
+            rvField.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+            rvField.setHasFixedSize(true)
+            rvField.adapter = adapter
+
+            btnAddField.setOnClickListener {
+                startActivity(Intent(requireActivity(), AddFieldActivity::class.java))
+            }
         }
 
-        binding.fabCamera.setOnClickListener {
-            startActivity(Intent(requireActivity(), CameraActivity::class.java))
+        Glide.with(this)
+            .load("https://storage.googleapis.com/pedotan-image-resource/Group%2012(1).png")
+            .transition(DrawableTransitionOptions.withCrossFade())
+            .into(binding.imageTatacara)
+        Glide.with(this)
+            .load("https://storage.googleapis.com/pedotan-image-resource/Rectangle%203(1).png")
+            .transition(DrawableTransitionOptions.withCrossFade())
+            .into(binding.dashboardImage)
+
+        viewModel.getSettings()
+        viewModel.user.observe(viewLifecycleOwner) { user ->
+            binding.profile.text = "Halo, ${user?.name ?: ""} " + String(Character.toChars(0x1F44B))
+        }
+        viewModel.listFields.observe(viewLifecycleOwner) {
+            adapter.setList(it)
         }
     }
 

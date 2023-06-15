@@ -29,21 +29,21 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun setupAction() {
         binding.registerButton.setOnClickListener {
-            val username = binding.emailEditText.text.toString()
-            val fullname = binding.fullnameEditText.text.toString()
+            val email = binding.emailEditText.text.toString()
+            val username = binding.fullnameEditText.text.toString()
             val password = binding.passwordEditText.text.toString()
             when {
-                username.isEmpty() -> {
+                email.isEmpty() -> {
                     binding.emailEditTextLayout.error = "Masukkan email"
                 }
-                fullname.isEmpty() -> {
+                username.isEmpty() -> {
                     binding.emailEditTextLayout.error = "Masukkan nama lengkap"
                 }
                 password.isEmpty() -> {
                     binding.passwordEditTextLayout.error = "Masukkan password"
                 }
                 else -> {
-                    val newUser = RegisterRequest(username, fullname, password)
+                    val newUser = RegisterRequest(email, username, password)
                     val registerLiveData = viewModel.register(newUser)
                     registerLiveData.observe(this) { success ->
                         if (success) {

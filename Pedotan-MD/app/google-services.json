@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "178674787182",
+    "project_id": "pedotan-65ca9",
+    "storage_bucket": "pedotan-65ca9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178674787182:android:d29f960f47b4b1f7e8177f",
+        "android_client_info": {
+          "package_name": "com.capstone.pedotan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178674787182-sci903b879rhk9uhlukgdf1qc9nfa951.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.capstone.pedotan",
+            "certificate_hash": "96388ce333d7ce408a23faca0302924bb5afd168"
+          }
+        },
+        {
+          "client_id": "178674787182-v45sdali52vesmcb3ijoopgf23eak293.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2QTlKciz606WZ7Jh0KULBS1JugakQJPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178674787182-5kndd11npq15ue72i10t25fi7tsjvkm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
