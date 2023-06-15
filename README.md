@@ -74,12 +74,30 @@ Here are the endpoints used by PEDOTAN-APP
 - **'/ai/predictnpk'**
 	Sending image for NPK value AI prediction
 
-## 🚀 Our Model Performance 
 
-Our machine-learning model has been rigorously tested and trained on a dataset comprising thousands of images to ensure a high level of accuracy. Here are some key performance metrics that we've achieved:
+## 🚀 Our Model Performance
+### Plant Disease Detection
+#### Model Training Performance
+![disease_model](https://github.com/akbarsigit/Pedotan-MachineLearning/assets/72943849/3bc7834a-53fd-4500-bab7-7bbf054b112e)
+#### Performance after Fine Tuning
+![finetuning_disease](https://github.com/akbarsigit/Pedotan-MachineLearning/assets/72943849/021fff2b-adc2-4ee6-8794-ae958849b807)
 
-### Classification Report
-----
+### Nutrient Deficiency
+#### Model Training Performance
+![image](https://github.com/akbarsigit/Pedotan-MachineLearning/assets/72943849/acf1c620-55b9-4073-b5fa-f7eff95ffc8d)
+#### Performance after Fine Tuning
+![image](https://github.com/akbarsigit/Pedotan-MachineLearning/assets/72943849/517c78e3-7b5d-4db4-9eb0-be574303d9b0)
+
+### Ideal Farm Detection
+#### Model Training Performance
+![image](https://github.com/akbarsigit/Pedotan-MachineLearning/assets/72943849/bd0a0f40-e9aa-4dc9-89b0-4f37746bbc8c)
+
+### Performance Summary
+Models | Accuracy | Val Accuracy
+------------ | ------------- | -------------
+Plant Disease Detection | 97.02 % | 96.37 %
+Nutrient Deficiency Detection | 99.08% | 94.78%
+Ideal Farm Detection | 96.56% | 98.75%
 
 
 
