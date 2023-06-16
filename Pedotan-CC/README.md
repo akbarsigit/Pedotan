@@ -128,4 +128,7 @@ To set up the environment required by the APIs and AI-Model that will be deploye
 
 **To change the environment please change the credentials file located in ./auth/credentials/
 
-***Be aware that the AI-Model2 is not on this repository and needs to be uploaded manually
+***Be aware that the AI-Model2 which is Plant Disease Detection is not available in this repository and needs to be uploaded manually
+
+## Testing on Postman
+Testing for PEDOTAN APIs in Postman can be done by accessing our test collection available on ./Postman/PEDOTAN API Test.json
