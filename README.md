@@ -42,7 +42,7 @@ For more information, check out each learning path to see the individual documen
 
 
 ## 🌟 Features
-1. **Real-time Plant Disease Detection 📸**: Capture a photo of the plant and receive the disease diagnosis, nutrient deficiency, and ideal farm condition in an instant.
+1. **Real-time Detection 📸**: Capture a photo of the plant and receive the disease diagnosis, nutrient deficiency, and ideal farm condition in an instant.
 2. **Market Place 🛒🌧️**: Provide a platform for the farmer to sell their crops under “koperasi tani” management.
 3. **Farm Monitoring 🌾**: Help farmers monitor growth with the help of AI technology to increase field productivity.
 4. **Financial Support 💸**: Support farmers in acquiring financial aid to initiate agricultural land cultivation.
