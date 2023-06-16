@@ -104,5 +104,39 @@ Plant Disease Detection | 97.02 % | 96.37 %
 Nutrient Deficiency Detection | 99.08% | 94.78%
 Ideal Farm Detection | 96.56% | 98.75%
 
+### 📱 Screenshots
+<div>
+  <img src="https://github.com/wiweka24/Pedotan-MD/assets/70740913/f9adc888-2470-4d90-96cf-4351c61fdb67" alt="Screenshot 1" width="180" />
+  <img src="https://github.com/wiweka24/Pedotan-MD/assets/70740913/0d13ad79-36d2-4673-9a10-cef3c37da5eb" alt="Screenshot 2" width="180" />
+  <img src="https://github.com/wiweka24/Pedotan-MD/assets/70740913/0de89cd2-00a2-45b1-96a7-c96dcc67602b" alt="Screenshot 3" width="180" />
+  <img src="https://github.com/wiweka24/Pedotan-MD/assets/70740913/9fa7462c-767d-48f6-a717-88c23f164bb4" alt="Screenshot 4" width="180" />
+  <img src="https://github.com/wiweka24/Pedotan-MD/assets/70740913/6e6b5376-2dce-4ba8-946f-3c1f62a18828" alt="Screenshot 5" width="180" />
+  <img src="https://github.com/wiweka24/Pedotan-MD/assets/70740913/86cac1d4-aeb5-4175-b65a-47415c2a6fdb" alt="Screenshot 6" width="180" />
+  <img src="https://github.com/wiweka24/Pedotan-MD/assets/70740913/432159d6-e3ec-43bf-b72f-f847a469193f" alt="Screenshot 7" width="180" />
+</div>
+
+
+## Getting Started
+### 🚀 Fast Try our app
+#### Download our latest [test app](https://drive.google.com/file/d/15BtYAy3corFpR_gWnx7zhkKD5t1YOKwL/view?usp=sharing) <br/>
+Either way follow our app development, <br/>
+download the debug app by following these steps.
+1. Open the Action tabs
+2. Click on the latest successful workflow
+3. Scroll down and download the test_apk
+
+### 💻 Download Locally
+Setting up project for local usage.
+1. Clone or Download this repository
+    ```shell
+    git clone https://github.com/wiweka24/Pedotan-MD.git
+    ```
+    if using SSH
+    ```shell
+    git clone git@github.com:wiweka24/Pedotan-MD.git
+    ```
+2. Open using Android Studio
+3. Build gradle, or change it to your preferences, recomended version 8.x.x
+4. Emulate using android phone or emulator
 
 
