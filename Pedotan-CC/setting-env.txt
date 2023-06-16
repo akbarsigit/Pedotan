@@ -1,19 +1,16 @@
 sudo apt update
 sudo apt install git
-git clone https://github.com/mukiwito/Pedotan-CC.git
 sudo apt-get install python3-pip
+git clone https://github.com/mukiwito/Pedotan-CC.git
+
 pip3 install flask flask-restful firebase-admin google-cloud-storage PyJWT
-cd Pedotan-CC/auth
-python3 app.py
-
-
 pip3 install numpy
 pip3 install Pillow
 pip3 install Keras
 pip3 install requests
 pip3 install tensorflow
 
-upload model2.h5
+/* upload model2.h5 */
 mv model2.h5 Pedotan-CC/ai_model/model
 
 cd Pedotan-CC
