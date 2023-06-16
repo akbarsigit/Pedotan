@@ -89,3 +89,40 @@ Here is the detailed specification of  the compute engine used for deployment.
 | CPU Platform | Intel Broadwell |
 | Architecture | x86/64 |
 | Boot Disk | debian-11-bullseye |
+
+## Run the API in GCP Compute Engine
+To set up the environment required by the APIs and AI-Model that will be deployed, follow this step.
+
+ 1. Create a VM Instance with the exact specification above
+ 2. Create a firewall to enable tcp in port:5000
+ 3. Set up the VM environment based on 'setting-env.txt' file or run this code
+```
+! sudo apt update
+```
+```
+! sudo apt install git
+```
+```
+! sudo apt-get install python3-pip
+```
+```
+! git clone https://github.com/mukiwito/Pedotan-CC.git
+```
+```
+! cd Pedotan-CC
+```
+```
+! pip3 install -r requirements.txt
+```
+5. After that upload the AI-Model2 and move it to ./ai_model/model/
+6. After that run this code to start the server
+```
+! python3 main-api.py
+```
+8. Or this code to run it in the background
+```
+! nohup python3 main-api.py &
+```
+
+*Note that this server will run on PEDOTAN environment and any data send or retrieve will  be from PEDOTAN firebase and PEDOTAN cloud storage.
+**To change the environment please change the credentials file located in ./auth/credentials/
