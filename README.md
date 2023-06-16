@@ -6,7 +6,7 @@
 :earth_asia: Welcome to the Bangkit capstone project of Team C23-PS379, a game-changer designed to revolutionize the agricultural sector with innovative solutions.
 
 ## 🎯 About 
-Pedotan is a mobile application that aims to support farmers by providing them with financial aid, offers a guidance system to enhance field productivity, and serves as a platform to sell their crops to improve the well-being of farmers. Our mission is to help farmers get a better understanding of what happened to their crops and monitor the fields, enhancing market opportunities and farmers' economic levels. Pedotan can give monitoring and guidance through AI technology to help identify and address plant issues to  promote the adoption of sustainable and efficient farming practices 🧪🔬.
+Pedotan is a mobile application that aims to support farmers by providing them with financial aid, offering a guidance system to enhance field productivity, and serving as a platform to sell their crops, ultimately improving the well-being of farmers. Our mission is to empower farmers with a comprehensive understanding of their crops' condition and enable them to monitor their fields effectively, thereby enhancing market opportunities and elevating farmers' economic status. Leveraging AI technology, Pedotan provides monitoring and guidance, allowing for the identification and resolution of plant issues, promoting the widespread adoption of sustainable and efficient farming practices. 🧪🔬.
 
 
 ![Tensorflow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
