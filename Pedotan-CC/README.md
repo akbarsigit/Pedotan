@@ -125,4 +125,7 @@ To set up the environment required by the APIs and AI-Model that will be deploye
 ```
 
 *Note that this server will run on PEDOTAN environment and any data send or retrieve will  be from PEDOTAN firebase and PEDOTAN cloud storage.
+
 **To change the environment please change the credentials file located in ./auth/credentials/
+
+***Be aware that the AI-Model2 is not on this repository and needs to be uploaded manually
