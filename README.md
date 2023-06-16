@@ -20,11 +20,11 @@ Pedotan is a mobile application that aims to support farmers by providing them w
 |            Member           | Student ID |        Path        |                    Role                    |                                                       Contacts                                                      |
 | :-------------------------: | :--------: | :----------------: | :----------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
 | Akbar Sigit Putra  | M169DSX0378 |  Machine Learning  |Machine Learning Engineer |[akbarsigit](https://github.com/akbarsigit)|
-| Muhammad Rifat Bagas Adikusuma | M169DSX0536  |  Machine Learning  | Machine Learning Engineer |   -  |
+| Muhammad Rifat Bagas Adikusuma | M169DSX0536  |  Machine Learning  | Machine Learning Engineer |   [muhammadrifatba](https://github.com/muhammadrifatba) |  |
 | Wiweka Yoga Sadewa| A169DSX1204 | Mobile Development | Android Mobile Developer | [wiweka24](https://github.com/wiweka24) |
-| Ammar Raihan | A017DSX1052  | Mobile Development |          Android Mobile Developer          |    -   |
-| Muhammad Dzaki Dwi Putranto  | C017DSX0699  |   Cloud Computing  |               Cloud Engineer              |  -         |
-| Akmal Jauhar Sidqi | C017DSX0718  |   Cloud Computing  |  Cloud Engineer        | - |
+| Ammar Raihan | A017DSX1052  | Mobile Development |          Android Mobile Developer          |    [ammarraihn](https://github.com/ammarraihn)   |
+| Muhammad Dzaki Dwi Putranto  | C017DSX0699  |   Cloud Computing  |               Cloud Engineer              |  [M Dzaki](https://github.com/mukiwito)         |
+| Akmal Jauhar Sidqi | C017DSX0718  |   Cloud Computing  |  Cloud Engineer        | [akmaljauhar](https://github.com/akmaljauhar) |
 
 
 ## Learning Path Repository 📚
