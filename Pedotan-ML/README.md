@@ -18,7 +18,7 @@ Pedotan Machine Learning Repository for Bangkit Capstone Project. Building Machi
 ## About 
 We have 3 model in this repository
 ### Plant Disease Detection
-[Plant disease Detection ](https://github.com/akbarsigit/Pedotan-MachineLearning/blob/main/crop_disease_detection.ipynb) 
+- [Plant disease Detection ](https://github.com/akbarsigit/Pedotan-MachineLearning/blob/main/crop_disease_detection.ipynb) 
 (image classification) use InceptionV3 as the base model for transfer learning that is taken from [Keras](https://keras.io/api/applications/inceptionv3/). The model also contains an additional layer that received output from the based model. The model had 36 node to define its 36 classification categories.  [Plant Disease Classification Merged Dataset](https://www.kaggle.com/datasets/alinedobrovsky/plant-disease-classification-merged-dataset) that contains 18.96 GB images of various plant diseases. 
 
 ### Nutrient Deficiency Detection
